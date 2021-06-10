@@ -29,10 +29,9 @@
 
 function setup() {
   // Write your code here.
-    var image = document.querySelector(".image")
-    image.remove()
-    console.log(document.body.innerHTML);
-
+  var image = document.querySelector(".image")
+  image.remove()
+  console.log(document.body.innerHTML);
 }
 
 // Example case. 

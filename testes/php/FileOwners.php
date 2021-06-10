@@ -15,6 +15,9 @@ class FileOwners
 {
     public static function groupByOwners($files)
     {
+
+
+        return NULL;
     }
 }
 

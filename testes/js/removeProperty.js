@@ -16,4 +16,5 @@ function removeProperty(obj, prop) {
   }
 
 }
-removeProperty({ teste: 'teste', fon: 'fon' }, 'outra')
+removeProperty({ id: '01', nome: 'Lucas', sobrenome: 'Amorim' }, 'endereco') //Essa retornará falso
+removeProperty({ id: '01', nome: 'Fulano', sobrenome: 'de Tal', endereco: 'rua 05 casa 10' }, 'endereco')//Neste exemplo retornará true e removerá a propriedade "endereco"
