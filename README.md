@@ -1,3 +1,7 @@
+## IMPORTANTE!!!!!
+Criar banco de dados, configurar o nome do banco criado na constante DB_DATABASE no arquivo .env 
+Na raiz do projeto, rodar o comando "php artisan migrate" para criar as tabelas.
+
 Esse desafio técnico será divido em duas etapas:
 Etapa 1 (atual): Desafio do projeto técnico
 Etapa 2: Entrevista técnica
